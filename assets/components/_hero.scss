@@ -1,0 +1,24 @@
+.hero{
+    padding: 70px 0 74px 0;
+    background: #FBFBFB;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__relative{
+       position: relative;
+    }
+    &__cup{
+        position: absolute;
+       margin-right: -105px;
+       margin-top: -11px;
+        
+    }
+    &__title{
+        @include font (700, 60px, #000)
+    }
+    &__suptitle{
+        @include font (400, 30px, #000)
+    }
+}
